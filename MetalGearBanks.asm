@@ -55,10 +55,15 @@ JAPANESE	equ	0	; 1 = Japanese version, 0 = English version
 ; Banks
 ;
 ;----------------------------------------------------------------------------
+		output "banks/Banks0123.dat"
 		include	"Banks0123.asm"
+		output "banks/Banks456.dat"
 		include	"Banks456.asm"
+		output "banks/Banks789.dat"
 		include	"Banks789.asm"
+		output "banks/BanksABC.dat"
 		include	"BanksABC.asm"
+		output "banks/BanksDEF.dat"
 		include	"BanksDEF.asm"
 		
 		end

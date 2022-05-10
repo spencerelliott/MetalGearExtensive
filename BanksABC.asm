@@ -27,6 +27,8 @@
 	include	"data/texts.asm"
 	ENDIF
 
+	include "data/randombytes.asm"
+
 ;----------------------------------------------------------------------------
 ;
 ; Initialize Metal Gear	logic

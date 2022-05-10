@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rm -R banks/* > /dev/null
+compiler/sjasm MetalGearBanks.asm
+
+echo "Banks 0123: `./count_bytes.py banks/Banks0123.dat`B"
+echo "Banks  456: `./count_bytes.py banks/Banks456.dat`B"
+echo "Banks  789: `./count_bytes.py banks/Banks789.dat`B"
+echo "Banks  ABC: `./count_bytes.py banks/BanksABC.dat`B"
+echo "Banks  DEF: `./count_bytes.py banks/BanksDEF.dat`B"
