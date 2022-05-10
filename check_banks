@@ -3,8 +3,14 @@
 rm -R banks/* > /dev/null
 compiler/sjasm MetalGearBanks.asm
 
-echo "Banks 0123: `./count_bytes.py banks/Banks0123.dat`B"
-echo "Banks  456: `./count_bytes.py banks/Banks456.dat`B"
-echo "Banks  789: `./count_bytes.py banks/Banks789.dat`B"
-echo "Banks  ABC: `./count_bytes.py banks/BanksABC.dat`B"
-echo "Banks  DEF: `./count_bytes.py banks/BanksDEF.dat`B"
+echo "Banks   0123: `./count_bytes.py banks/Banks0123.dat`B"
+echo "Banks    456: `./count_bytes.py banks/Banks456.dat`B"
+echo "Banks    789: `./count_bytes.py banks/Banks789.dat`B"
+echo "Banks    ABC: `./count_bytes.py banks/BanksABC.dat`B"
+echo "Banks    DEF: `./count_bytes.py banks/BanksDEF.dat`B"
+echo "Banks     10: `./count_bytes.py banks/Banks10.dat`B"
+echo "Banks  0x11+: `./count_bytes.py banks/Banks11_12_13.dat`B"
+echo "Banks  0x14+: `./count_bytes.py banks/Banks14_15_16.dat`B"
+echo "Banks  0x17+: `./count_bytes.py banks/Banks17_18_19.dat`B"
+echo "Banks  0x1A+: `./count_bytes.py banks/Banks1A_1B_1C.dat`B"
+echo "Banks  0x1D+: `./count_bytes.py banks/Banks1D_1E_1F.dat`B"
